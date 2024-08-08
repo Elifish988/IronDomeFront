@@ -1,0 +1,13 @@
+.main-headline{
+    color: #b20202;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:  monospace;
+}
