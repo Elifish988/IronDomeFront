@@ -20,6 +20,11 @@ const publishMessage = (missile) => {
   socket.send(JSON.stringify(missile));
 }
 
+// Handle messages from the backend
+socket.onmessage = (event) => {
+  console.log('got message', JSON.stringify(event.data));
+}
+
 
 
 
